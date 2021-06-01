@@ -6,6 +6,7 @@ class testCaseAdd(unittest.TestCase):
 		self.assertEqual(fizzBuzz.printFizz(1), 1)
 		self.assertEqual(fizzBuzz.printFizz(3), "Fizz")
 		self.assertEqual(fizzBuzz.printFizz(5), "Buzz")
+		self.assertEqual(fizzBuzz.printFizz(15), "FizzBuzz")
 
 
 
