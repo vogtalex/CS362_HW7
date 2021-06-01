@@ -7,3 +7,9 @@ def printFizz(input):
 		return "Buzz"
 	return input
 
+
+count = 1
+while (count <= 100):
+	var = printFizz(count)
+	print(var)
+	count += 1
